@@ -15,7 +15,7 @@ const req = http.request(options, (res) => {
         console.log("Test falló");
         process.exit(1);
     }
-});
+}); // Cambios nuevos
 
 req.on("error", () => {
     console.log("Error conexión");
